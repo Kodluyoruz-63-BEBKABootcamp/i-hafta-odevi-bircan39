@@ -1,6 +1,6 @@
-     # Docker ve Docker'a Ait Kavramlar Üzerine
+     #    Docker ve Docker'a Ait Kavramlar Üzerine
 
-     ### Docker
+     ###  Docker
 
      Docker, 2008 yılında Linux Kernel'de **Linux Containers (LXC)** teknolojisi ile kurulmuş bir teknolojidir. LXC sistemler linux tabanlı işletim sistemleri üzerinde birbirinden bağımsız konteynerler üzerine çalışabilmektedir. LXC sistemleri aslında yaptıkları sanallaştırma işlemini işletim sistemleri seviyesinde yapmaktadır.
 
