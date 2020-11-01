@@ -13,7 +13,7 @@ Bakılması/yapılması istenen şeyler:
 - Beğendiğiniz beş tane iş ilanı 
 - Github ile alakalı, takip ettiğiniz üzerine çalışılabileceğini düşündüğünüz repositorylerin listesi
 - Kodun kalitesinin metrik olarak ölçülmesinden ne anlamaktasınız?
-
+-deneme
 
 
 
