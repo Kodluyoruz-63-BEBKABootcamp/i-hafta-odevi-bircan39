@@ -1,6 +1,6 @@
-# Docker ve Docker'a Ait Kavramlar Üzerine
+     # Docker ve Docker'a Ait Kavramlar Üzerine
 
-### Docker
+     ### Docker
 
      Docker, 2008 yılında Linux Kernel'de **Linux Containers (LXC)** teknolojisi ile kurulmuş bir teknolojidir. LXC sistemler linux tabanlı işletim sistemleri üzerinde birbirinden bağımsız konteynerler üzerine çalışabilmektedir. LXC sistemleri aslında yaptıkları sanallaştırma işlemini işletim sistemleri seviyesinde yapmaktadır.
 
@@ -10,27 +10,27 @@
 
      Container sistemlerinde kullanılan yapılar ve terimler;
 
-## Docker'da Container
+     ## Docker'da Container
 
      Container, Linux'ta Docker Deamon tarafından izole edilen çekirdekler içerisinde gerçekleşen procress'lere verilen isimdir. **Hypervisor sistemlerde** host üzerinde kurulan **ayrı ayrı** her bir işletim sistemi bir **visual machine** oluşturduğu gibi **docker'da** da **tek bir çekirdek** üzerinde izole bir şekilde oluşturulan procress'ler yani **containerlara** karşılık gelmektedir.
 
-## Image ve DockerFile Dosyaları
+     ## Image ve DockerFile Dosyaları
 
      Dockerfile dosyaları, containerların içerisinde kurulacak olan işletim sisteminden tüm procress işlemlerin dosyalarını verilerini bulunduran ve procress'e yön verecek tüm komutları içeren metin tabanlı bir dosyadır.
 
      Container içerisinde programın nasıl çalışacağı **ımage** denilen metin bazlı kod katmanlarının birleşimi ile oluşur. Her Image için bir dockerfile dosyası tanımlanır ve bu Image'in nasıl çalışacağını belirler. Imageler Containerlarda katmanlardan oluşarak bulunur böylece bir Image katmanında yapılan değişiklikler diğer katmanları etkilemeyebilecektir.
 
-## Docker Deamon
+     ## Docker Deamon
 
 Docker Deamon (Docker Engine olarakda bilinir), containeler için sistem içerisinde gerekli izole alanı sağlayan ve containerlara gerekli işlemci desteğini, Ram desteğini belirleyen ve bu doğrultuda çalışan sistemdir.
 
-## Docker CLI
+     ## Docker CLI
 
 Docker sistemlerinde, **kullanıcı** ile **Docker Deamon** arasındaki köprü rolünü üstlenen sistemdir. Kullanıcının container hakkında ayarlamak istediğim tüm verileri alarak Docker Deamon iletir.
 
      
 
-# Kaynakça
+     # Kaynakça
 
 [https://gokhansengun.com/docker-nedir-nasil-calisir-nerede-kullanilir/](https://gokhansengun.com/docker-nedir-nasil-calisir-nerede-kullanilir/) (Erişim Tarihi : 29.10.2020)
 
